@@ -14,7 +14,8 @@ const greeting = {
   logo_name: "suhas.kc",
   nickname: "suhas / thegame",
   full_name: "Suhas Katari Chaluva Kumar",
-  subTitle: "Software Engineer, FinTech Enthusiast 🔥. Always learning.",
+  subTitle:
+    "Software Engineer, FinTech Enthusiast 🔥. Always learning and growing",
   resumeLink:
     "https://drive.google.com/file/d/1Hv-F4I7tP6exbXKOaIaeG0FTuDBTQ3W3/view?usp=sharing",
   mail: "mailto:suhaskatari1998@gmail.com",
@@ -364,7 +365,7 @@ const certifications = {
       logo_path: "powerbi.png",
       certificate_link: "",
       alt_name: "PowerBI certification",
-      // color_code: "#f36c3d",
+
       color_code: "#fffbf3",
     },
   ],
