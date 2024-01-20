@@ -15,9 +15,9 @@ const greeting = {
   nickname: "suhas / thegame",
   full_name: "Suhas Katari Chaluva Kumar",
   subTitle:
-    "Software Engineer, FinTech Enthusiast 🔥. Always learning and growing",
+    "Software Engineer, AIML, FinTech Enthusiast 🔥. Always learning and growing",
   resumeLink:
-    "https://drive.google.com/file/d/1Hv-F4I7tP6exbXKOaIaeG0FTuDBTQ3W3/view?usp=sharing",
+    "https://drive.google.com/file/d/1XeBd0AP9i54NS1lMnc_eWNBF3CglexCq/view?usp=share_link",
   mail: "mailto:suhaskatari1998@gmail.com",
 };
 
@@ -34,11 +34,11 @@ const skills = {
       title: "Software Engineer",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building highly interactive User Interfaces by leveraging modern technologies like React.js/Vue.js",
+        "⚡ Building highly interactive User Interfaces by leveraging modern technologies like React.js, Redux",
         "⚡ Developing full-stack applciations using the MERN(Mongo,Express,Node,React) stack",
-        "⚡ Optimizing and Building AIML infrastructure to deploy solutions on a HPC environment",
+        "⚡ Optimizing AIML algorothms to leverage GPU power, code refactoring of large codebases, and integrate AIML algorithms into user applications",
         "⚡ Developing API's and Microservices that are reusable and scalable",
-        "⚡ Leveraging Docker/Kubernetes to deploy scalable and robust solutions",
+        "⚡ MMA, Ultimate Frisbee, Gym and Coffee keeps me going 😉",
       ],
       softwareSkills: [
         {
@@ -205,8 +205,8 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms such as AWS and Azure",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with CI/CD tools and deploying scalable solutions via serverless compute",
+        "⚡ Experience hosting and managing website",
+        "⚡ AWS - Lambda, S3, EC2, Cloudfront, RDS. Azure - Functions, Active Directory, Policies, DevOps",
       ],
       softwareSkills: [
         {
@@ -277,10 +277,10 @@ const degrees = {
       subtitle: "Master of Science in Computer Science and Engineering",
       logo_path: "UF-logo.png",
       alt_name: "University of Florida",
-      duration: "2022 - Present",
+      duration: "2022 - 2024",
       descriptions: [
         "⚡ I'm currently pursuing my Masters in Computer Science expecting to graduate in Spring 2024.",
-        "⚡ Completed Coursework include Applied Machine Learning, Analysis of Algorithms, Information Visualization, Advanced Data Structures and Complex Analysis",
+        "⚡ Completed Coursework include Applied Machine Learning, Analysis of Algorithms, Advanced Data Structures, Human-Computer Interaction, Information Visualization, Advanced Computer Networks, Advanced Databases, and Complex Analysis",
         "⚡ Current Cummulative GPA - 3.66/4",
       ],
       website_link: "https://www.ufl.edu",
@@ -376,51 +376,22 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "Former Amazonian | 2+ years of professional experience as Software Developer, Data Engineer, Platform Engineer and AIML Researcher",
+    "Ex-Amazonian | 2+ years of professional experience Software and Data Engineering and AI/ML algorithm optimization",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Data Engineer",
-          company: "Amazon",
-          company_url: "https://www.amazon.com/",
-          logo_path: "amazon.png",
-          duration: "Sep 2020 - Jul 2021",
-          location: "Bengaluru, India",
-          description: `Spearheaded data mining initiatives across multiple marketplaces, strategically extracting crucial business data from competitor websites to enhance Amazon's competitive positioning.
-          Conducted comprehensive analysis and processing of scraped website data, ensuring accuracy and relevance.
-          Collaborated effectively with vendor managers and other key stakeholders to continuously update, maintain, and enrich Amazon's website catalog, contributing to improved user experience and product visibility.
-          `,
-          color: "#0071C5",
-        },
-        {
-          title: "Full Stack Software Engineer",
-          company: "Polaris Wireless",
-          company_url: "https://www.polariswireless.com/",
-          logo_path: "pl.png",
-          duration: "Dec 2021 - Jul 2022",
-          location: "Bengaluru, India",
-          description: `Revamped legacy code to modern development standards, achieving a 40% increase in system performance and a 30% reduction in code base size, while enhancing functionality, security, and reusability.
-          ◦ Collaborated with cross-functional teams to resolve bugs and implement new features across applications developed with React.js and Redux.
-          ◦ Participated in and contributed to sprint planning meetings, UX documentation reviews, and feature specification meetings, providing valuable insights to optimize application development.
-          `,
-          color: "#0071C5",
-        },
-        {
-          title: "Graduate Research Assistant",
+          title: "Software Engineer - Graduate Research Assistant",
           company: "University of Florida, College of Medicine",
-          company_url: "https://med.ufl.edu/",
+          company_url: "https://cmilab.nephrology.medicine.ufl.edu/",
           logo_path: "ufcom.png",
           duration: "Jan 2023 - Present",
           location: "Gainesville, Florida",
-          description: `Engaged in a high-impact collaborative research project, HUBMAP CONSORTIUM, aimed at constructing high-resolution tissue maps to understand human biology.
-          -> Collaborated with esteemed institutions such as Harvard University, Yale University, Carnegie Mellon University, Stanford University, University of Pennsylvania, and others on cutting-edge machine learning and artificial intelligence initiatives to propel advancements in medical science.
-          -> Orchestrated the development and optimization of cutting-edge Medical AI/ML methodologies for a heavily NIH-funded project.
-          -> Directed the successful deployment of the NaviGator application, overseeing all phases.
-          Leveraged a comprehensive skill set to formulate and implement strategies in web development, DevOps, and cloud
-          computing.
+          description: `• Utilized Python to adapt a Docker-based Flask DSA application for Singularity and HPC compatibility, enabling the use of HiperGator’s power.\n
+          • Optimized AI/ML algorithms for better NVIDIA GPU utilization, resulting in 50% more efficiency when running AI/ML algorithms on Whole Slide Images.\n
+          • Worked on NaviGator application development using Python and delivered it to users 3 weeks ahead of schedule, applying principles of SDLC, enabling usage by AI researchers at Harvard, Yale, and Johns Hopkins, furthering AI research.\n
           `,
           color: "#ee3c26",
         },
@@ -431,12 +402,35 @@ const experience = {
           logo_path: "steelcase.png",
           duration: "May 2023 - Aug 2023",
           location: "Grand Rapids, Michigan",
-          description: `• Spearheaded and executed the Azure Cost Transparency Project, utilizing Power BI to analyze and interpret data.
-          • Conducted a comprehensive assessment to identify inefficiencies, leading to the elimination of non-working servers
-          costing $20k/month.
-          • Coordinated the company-wide implementation of the project, effectively optimizing cloud costs.
+          description: `• Analyzed Azure cloud cost data using Numpy and Pandas, leading to the identification and elimination of non-functional servers, saving $20,000 per month.\n
+          • Worked on Azure Functions and security policies, automating platform-related tasks and enhancing operational efficiency by eliminating redundant operations and bolstering security measures.\n
+          • Conducted a usability study for prototyped PowerBI dashboards, gathering user feedback to optimize report visibility and relevance, enhancing decision-making processes across IT teams\n
           `,
           color: "#ee3c26",
+        },
+        {
+          title: "Full Stack Software Engineer",
+          company: "Polaris Wireless",
+          company_url: "https://www.polariswireless.com/",
+          logo_path: "pl.png",
+          duration: "Dec 2021 - Jul 2022",
+          location: "Bengaluru, India",
+          description: ` Worked on the transition of a major portion of a large-scale codebase from class-based React and Redux to function-based React, resulting in a 30% reduction in codebase size and a 40% increase in system performance, while enhancing functionality and security.\n
+          • Engaged in sprint planning, UX reviews, and feature specification meetings, providing insights to enhance user requirement anticipation and application usability, while collaborating with backend and testing teams to swiftly resolve user-facing bugs, ensuring a seamless user experience.
+          `,
+          color: "#0071C5",
+        },
+        {
+          title: "Data Engineer",
+          company: "Amazon",
+          company_url: "https://www.amazon.com/",
+          logo_path: "amazon.png",
+          duration: "Sep 2020 - Jul 2021",
+          location: "Bengaluru, India",
+          description: `• Developed Python scripts and Java snippets for collecting data from competitor websites across various marketplaces. Processed and analyzed the collected data, effectively utilizing SQL and Bash scripting for database operations.\n
+          • Worked with several AWS services including S3, Lambda, RDS, and EC2 to manage, store, and process collected data, leveraging AWS’s technologies for operational efficiency.          
+          `,
+          color: "#0071C5",
         },
       ],
     },
@@ -454,17 +448,6 @@ const experience = {
             "Help international studnets navigate their way around the US.",
           color: "#040f26",
         },
-        {
-          title: "Gator Coder club",
-          company: "Affliate Society of UF",
-          company_url: "https://cise.ufl.edu/dept/type/about.html",
-          logo_path: "gcc.png",
-          duration: "Jan 2023 - Present",
-          location: "Gainesville, Florida",
-          description:
-            "Helping create new Gators and help them to learn technology and coding",
-          color: "#D83B01",
-        },
       ],
     },
   ],
@@ -473,8 +456,8 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description: `I am a busy bee and I love to work on projects that enables me to learn something new. So, you'll see a wide range of assorted projects here ranging from 
-    web development, Information Visualization, machine learning, Data Base application and many more.
+  description: `I love working on projects, either school project or personal project. So, you'll see a wide range of assorted projects here ranging from 
+    web development, Information Visualization, machine learning, Data Base application and more...
     `,
   avatar_image_path: "projects_image.svg",
 };
